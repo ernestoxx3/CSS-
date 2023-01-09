@@ -1,0 +1,8 @@
+ul:hover li a {
+    color: red;
+}
+
+ul:hover li a:not(:hover) {
+    color: rgb(232, 123, 123);
+    opacity:0.3;
+    filter: blur(1px);
